@@ -2,21 +2,28 @@
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main {
+#continer {
     background-color: #ffffff;
-    margin: 250px;
+    width: 400px;
+    margin: 120px 900px 0px 700px;
     padding: 30px;
-    box-shadow: 1px 1px 3px 2px black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-shadow: 1px 1px 9px 3px rgba(27, 24, 24, 0.177);
     border-radius: 12px;
 }
 
+
 .h2 {
     font-size: xx-large;
-    margin-left: 40px;
+    margin-left: 35px;
     background-color: #ffffff;
     margin-bottom: 22px;
+    text-align: center;
 }
 
 #number-1 {
@@ -25,6 +32,7 @@
     width: 370px;
     border-radius: 5px;
     font-size: larger;
+    padding-left: 15px;
 }
 
 #number-2 {
@@ -33,6 +41,8 @@
     width: 370px;
     border-radius: 5px;
     font-size: larger;
+    padding-left: 15px;
+
 }
 
 #number-3 {
@@ -41,6 +51,8 @@
     width: 370px;
     border-radius: 5px;
     font-size: larger;
+    padding-left: 15px;
+
 }
 
 #number-4 {
@@ -49,22 +61,29 @@
     width: 370px;
     border-radius: 5px;
     font-size: larger;
+    padding-left: 15px;
+
 }
 
 #button-1 {
     background-color: rgb(33, 150, 243);
     padding: 9px;
     width: 200px;
+    height: 40px;
     border-radius: 4px;
     color: white;
     border-color: rgb(33, 150, 243);
+    border: none;
 }
 
 #button-2 {
     background-color: rgb(244, 67, 54);
     padding: 9px;
     width: 170px;
+    height: 40px;
+    margin-left: 3px;
     border-radius: 4px;
     color: white;
     border-color: rgb(244, 67, 54);
+    border: none;
 }
